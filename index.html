@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>カレンダー</title>
+	<link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+	<div class="cal">
+		<div class="cal__header">
+			<div class="cal__arrow cal__prev" id="js-cal-prev"></div>
+			<div class="cal__title" id="js-cal-title"></div>
+			<div class="cal__arrow cal__next" id="js-cal-next"></div>
+		</div>
+		<div class="cal__body">
+			<table>
+			<thead class="cal__weeks">
+				<tr>
+					<th class="cal__week cal__week--sun">日</th>
+					<th class="cal__week">月</th>
+					<th class="cal__week">火</th>
+					<th class="cal__week">水</th>
+					<th class="cal__week">木</th>
+					<th class="cal__week">金</th>
+					<th class="cal__week cal__week--sat">土</th>
+				</tr>
+			</thead>
+				<tbody class="cal__days" id="js-cal-days"></tbody>
+			</table>
+		</div>
+	</div>
+	<script src="./assets/index.js"></script>
+</body>
+</html>
